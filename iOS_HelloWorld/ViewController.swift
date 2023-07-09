@@ -9,9 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var myLabel: UILabel!
+    
     @IBAction func buttonPressed(_ sender: UIButton) {
         // Press Me
         print("Button Pressed!!")
+        myLabel.text = "Hello World!"
     }
     
     override func viewDidLoad() {
