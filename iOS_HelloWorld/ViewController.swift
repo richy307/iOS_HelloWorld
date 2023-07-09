@@ -9,9 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        // Press Me
+        print("Button Pressed!!")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        print("What's up?")
     }
 
 
